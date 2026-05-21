@@ -333,12 +333,11 @@ img { display: block; width: 100%; height: auto; }
 .coach-photo {
   border-radius: 14px;
   width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  object-position: center;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: center 2%;
   border: 1px solid var(--border);
-  background: #0d0b1e;
+  display: block;
 }
 
 .coach-ig-pill {
