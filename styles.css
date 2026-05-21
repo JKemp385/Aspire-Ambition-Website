@@ -423,6 +423,9 @@ img { display: block; width: 100%; height: auto; }
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+.program-grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
 
 .program-card {
   background: var(--card);
@@ -459,6 +462,9 @@ img { display: block; width: 100%; height: auto; }
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-bottom: 52px;
+}
+.included-grid-4 {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .included-item {
@@ -674,6 +680,7 @@ img { display: block; width: 100%; height: auto; }
 /* ══════════════ RESPONSIVE ══════════════ */
 @media (max-width: 1024px) {
   .program-grid { grid-template-columns: repeat(2, 1fr); }
+  .program-grid-4 { grid-template-columns: repeat(2, 1fr); }
   .transforms-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-inner { grid-template-columns: 1fr 1fr; }
   .footer-apply { grid-column: 1 / -1; }
